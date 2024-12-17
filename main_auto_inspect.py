@@ -111,6 +111,7 @@ for info in result_list_info:
     else:
         with open('inspect_log.log', 'a') as f:
             f.write(info)
+
 result_list_info.clear()
 print("巡检完成！！！",time.strftime('%Y/%m/%d %H:%M:%S'))
 #print(result_list_info)
